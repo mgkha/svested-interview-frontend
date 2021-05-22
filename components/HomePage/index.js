@@ -27,9 +27,12 @@ export default function HomePage() {
   };
 
   useEffect(() => {
-    var auth = JSON.parse(atob(window.localStorage.getItem("auth")));
-    setUsername(auth.username);
-    setToken(auth.token);
+    var auth = window.localStorage.getItem("auth");
+    auth = auth && JSON.parse(atob(auth));
+    if (auth) {
+      setUsername(auth.username);
+      setToken(auth.token);
+    }
   }, []);
 
   return (
