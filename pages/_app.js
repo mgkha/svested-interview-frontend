@@ -31,8 +31,8 @@ function MyApp({ Component, pageProps }) {
 
       <footer className={styles.footer}>
         <span>
-          <Link href="https://github.com/mgkha/svested-frontend">
-            <a>github.com/mgkha/svested-frontend</a>
+          <Link href="https://github.com/mgkha/svested-interview-frontend">
+            <a>github.com/mgkha/svested-interview-frontend</a>
           </Link>
         </span>
       </footer>
