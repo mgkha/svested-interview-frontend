@@ -1,0 +1,29 @@
+.title {
+  margin: 0;
+  line-height: 1.15;
+  text-align: center;
+  color: #37504a;
+  font-size: 2rem;
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.actionBtn {
+  padding: 5px 15px;
+  margin: 10px 15px;
+  /* border: 1px solid #37504a; */
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.status {
+  font-size: small;
+  color: red;
+}
