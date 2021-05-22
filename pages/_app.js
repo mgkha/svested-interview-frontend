@@ -1,8 +1,8 @@
-import "../styles/globals.css";
-import styles from "../styles/app.module.css";
+import "@/styles/globals.css";
+import styles from "@/styles/app.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import { LoadingProvider } from "../hooks/loading";
+import { LoadingProvider } from "@/hooks/loading";
 
 function MyApp({ Component, pageProps }) {
   return (

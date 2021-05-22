@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import styles from "../../styles/components/homepage.module.css";
-import AlphabetList from "../Alphabets/AlphabetList";
+import styles from "@/styles/components/homepage.module.css";
+import AlphabetList from "@/components/Alphabets/AlphabetList";
 import { fetchData, processData } from "./requests";
 
 export default function HomePage() {

@@ -1,4 +1,4 @@
-import Loading from "../components/Loading";
+import Loading from "@/components/Loading";
 import { createContext, useContext, useState } from "react";
 
 export const LoadingContext = createContext([false]);

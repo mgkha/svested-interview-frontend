@@ -1,7 +1,7 @@
-import styles from "../../styles/signup.module.css";
+import styles from "@/styles/signup.module.css";
 import { useState } from "react";
 import { signup } from "./requests";
-import { useLoading } from "../../hooks/loading";
+import { useLoading } from "@/hooks/loading";
 
 export default function SignupForm() {
   const [username, setUsername] = useState("");

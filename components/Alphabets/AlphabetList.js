@@ -1,4 +1,4 @@
-import styles from "../../styles/components/alphabet.module.css";
+import styles from "@/styles/components/alphabet.module.css";
 import Alphabet from "./Alphabet";
 
 export default function AlphabetList({ alphabets }) {
